@@ -8,7 +8,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
-  <remote fetch="https://github.com/chiragp-mecha" name="mecha-v1"/>
+  <remote fetch="https://github.com/mecha-org" name="mecha-org"/>
   <remote fetch="https://github.com/meta-rust" name="rust-72"/>
   <remote fetch="https://github.com/Igalia" name="cog-0.14"/>
   <remote fetch="https://github.com/OSSystems" name="chromium"/>
@@ -25,8 +25,8 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-v1" revision="main" upstream="main"/>
-  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-v1" revision="main" upstream="main">
+  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="67d1750f60935bcae2e643a56289f24f6289b7db" upstream="kirkstone"/>
+  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="0d1aa4883b65d7f27e5dd644f0b49515f41b5322" upstream="kirkstone">
     <linkfile dest="edge-setup-release.sh" src="edge-setup-release.sh"/>
   </project>
 
