@@ -8,7 +8,10 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
-  <remote fetch="https://github.com/mecha-org" name="mecha-org"/>
+  <remote fetch="https://github.com/chiragp-mecha" name="mecha-v1"/>
+  <remote fetch="https://github.com/meta-rust" name="rust-72"/>
+  <remote fetch="https://github.com/Igalia" name="cog-0.14"/>
+  <remote fetch="https://github.com/OSSystems" name="chromium"/>
 
   <project name="poky" path="sources/poky" remote="yocto" revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" upstream="kirkstone"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="744a4b6eda88b9a9ca1cf0df6e18be384d9054e3" upstream="kirkstone"/>
@@ -22,13 +25,16 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone"/>
-  <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="d1ad27bfacc937048e7f9084b17f4d7c917d2004" upstream="master"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" upstream="master"/>
-
-  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="0051b16522cb575b03b5bf8434bd833268fd4227" upstream="kirkstone">
+  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-v1" revision="main" upstream="main"/>
+  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-v1" revision="main" upstream="main">
     <linkfile dest="edge-setup-release.sh" src="edge-setup-release.sh"/>
   </project>
-  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="bb18e58500f5ba5a362be34842ca720bdaf60c74" upstream="kirkstone"/>
+
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" upstream="master"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone"/>
+  <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="d1ad27bfacc937048e7f9084b17f4d7c917d2004" upstream="master"/>
+  <project name="meta-rust" path="sources/meta-rust" remote="rust-72" revision="d42984ff9a9fad9ced37d95a89af1b2b84f957e9" upstream="master"/>
+  <project name="meta-webkit" path="sources/meta-webkit" remote="cog-0.14" revision="63ccde7bc228bb5641810acc02953197cdb89b2f" upstream="kirkstone"/>
+  <project name="meta-browser" path="sources/meta-browser" remote="chromium" revision="3b4aeda5e672656cd209e56b09a60bfff57e9139" upstream="master"/>
 
 </manifest>
