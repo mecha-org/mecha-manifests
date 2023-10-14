@@ -31,6 +31,3 @@ DISTRO=mecha-wayland MACHINE=mecha-mage-gen1 source edge-setup-release.sh -b bui
 ```sh
 bitbake mecha-image-core
 ```
-
-## TODO
-- [] What is the command to setup again
