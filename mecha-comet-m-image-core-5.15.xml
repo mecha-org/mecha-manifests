@@ -35,6 +35,6 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="d1ad27bfacc937048e7f9084b17f4d7c917d2004" upstream="master"/>
   <project name="meta-rust" path="sources/meta-rust" remote="rust-72" revision="d42984ff9a9fad9ced37d95a89af1b2b84f957e9" upstream="master"/>
   <project name="meta-webkit" path="sources/meta-webkit" remote="cog-0.14" revision="63ccde7bc228bb5641810acc02953197cdb89b2f" upstream="kirkstone"/>
-  <project name="meta-browser" path="sources/meta-browser" remote="chromium" revision="3b4aeda5e672656cd209e56b09a60bfff57e9139" upstream="master"/>
+  <project name="meta-browser" path="sources/meta-browser" remote="chromium" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6" upstream="master"/>
 
 </manifest>
