@@ -2,7 +2,6 @@
 <manifest>
 
   <remote fetch="https://github.com/nxp-imx" name="nxp-imx"/>
-  <remote fetch="https://github.com/TimesysGit" name="Timesys"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
   <remote fetch="https://github.com/Freescale" name="community"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
@@ -25,14 +24,13 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="67d1750f60935bcae2e643a56289f24f6289b7db" upstream="kirkstone"/>
-  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="0d1aa4883b65d7f27e5dd644f0b49515f41b5322" upstream="kirkstone">
+  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="ed532f67359729a913b0ba2f98c1301a4ab7eb1f" upstream="kirkstone"/>
+  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="8478c11926032cb7dd3b37dfd1f611ea725bc213" upstream="kirkstone">
     <linkfile dest="edge-setup-release.sh" src="edge-setup-release.sh"/>
   </project>
 
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" upstream="master"/>
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone"/>
-  <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="d1ad27bfacc937048e7f9084b17f4d7c917d2004" upstream="master"/>
   <project name="meta-rust" path="sources/meta-rust" remote="rust-72" revision="d42984ff9a9fad9ced37d95a89af1b2b84f957e9" upstream="master"/>
   <project name="meta-webkit" path="sources/meta-webkit" remote="cog-0.14" revision="63ccde7bc228bb5641810acc02953197cdb89b2f" upstream="kirkstone"/>
   <project name="meta-browser" path="sources/meta-browser" remote="chromium" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6" upstream="master"/>
