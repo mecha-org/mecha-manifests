@@ -31,4 +31,3 @@ DISTRO=mechanix-xwayland MACHINE=mecha-comet-m-gen1 source edge-setup-release.sh
 ```sh
 bitbake mecha-image-core
 ```
-- [] What is the command to setup agai
