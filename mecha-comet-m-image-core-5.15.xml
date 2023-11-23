@@ -24,7 +24,7 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="37878f5cfcc27e89f33636340d0b9ec98b9bfeda" upstream="kirkstone"/>
+  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="def664bf7246c1b0e2ca18cdd8143a63ec45f421" upstream="kirkstone"/>
   <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="8f96d6201cf37876385b89fffa2572ac0ce20ca4" upstream="kirkstone">
     <linkfile dest="edge-setup-release.sh" src="edge-setup-release.sh"/>
   </project>
