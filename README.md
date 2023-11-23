@@ -23,7 +23,7 @@ Note: When you sync the repo for first time, key in your name and email
 3. Setup the bitbake `local.conf`
 
 ```sh
-DISTRO=mecha-wayland MACHINE=mecha-mage-gen1 source edge-setup-release.sh -b build
+DISTRO=mechanix-xwayland MACHINE=mecha-comet-m-gen1 source edge-setup-release.sh -b build
 ```
 
 4. Start building the image
