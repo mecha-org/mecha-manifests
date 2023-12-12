@@ -1,0 +1,32 @@
+# write a code that create folder on server and it has one text file hello.txt with data "hello from self hosetd runner."
+
+name: Mecha-os Build Runner
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Pull Docker Image
+        run: docker pull mechaorg/mecha-image-core:latest
+
+      - name: Run Docker Image
+        run: docker run -v /home/mecha/volume/mechaos/build:/home/mecha/build -v /home/mecha/volume/mechaos/download:/home/mecha/downloads mechaorg/mecha-image-core
+          
+          
+      - name: Set up S3cmd cli tool
+        uses: s3-actions/s3cmd@v1.5.0
+        with:
+          provider: aws # default is linode
+          region: "us-east-2"
+          access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          secret_key: ${{ secrets.S3_SECRET_KEY }}
+
+      - name: Sync Assets to S3Bucket
+        run: |
+          s3cmd sync --recursive /home/mecha/volume/mechaos/build/tmp/deploy/images ${{ secrets.S3_BUCKET_PATH }}
