@@ -14,7 +14,7 @@ $ apt install -y gawk wget git repo diffstat unzip texinfo gcc build-essential c
 ```sh
 $ mkdir yocto-build
 $ cd yocto-build
-$ repo init -u https://github.com/mecha-org/mecha-manifests.git -b kirkstone -m mecha-comet-m-image-core-5.15.xml
+$ repo init -u https://github.com/mecha-org/mecha-manifests.git -b mickledore -m mecha-comet-m-image-core-6.1.22.xml
 $ repo sync
 ```
 
@@ -23,7 +23,7 @@ Note: When you sync the repo for first time, key in your name and email
 3. Setup the bitbake `local.conf`
 
 ```sh
-DISTRO=mechanix-xwayland MACHINE=mecha-comet-m-gen1 source edge-setup-release.sh -b build
+DISTRO=mechanix-xwayland MACHINE=mecha-comet-m-gen1 source comet-m-setup-release.sh -b build
 ```
 
 4. Start building the image
