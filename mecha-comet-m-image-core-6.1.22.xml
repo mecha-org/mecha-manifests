@@ -27,9 +27,9 @@
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="39d8f0d5ee44aae9932923e9fe95b7f2838563af" upstream="master"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="a4efa17a9f6b25d8d9290dfee8275059d40b83df" upstream="master"/>
 
-  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="909714b01b02764a64d1b45337eaacb9b1a31b63" upstream="mickledore"/>
-  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="4b8a59a648efbb6c90991a52b88902828190fefe" upstream="mickledore">
-    <linkfile dest="edge-setup-release.sh" src="edge-setup-release.sh"/>
+  <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="3209ef79fa6d52ad91413a38798bf3b978dd6d18" upstream="mickledore"/>
+  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="fa5c5cf9445b5f0821df97ffd36923b110176938" upstream="mickledore">
+    <linkfile dest="comet-m-setup-release.sh" src="comet-m-setup-release.sh"/>
   </project>
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0b5724266a8e559cac1724350c1ff2f9e6580326" upstream="mickledore"/>
