@@ -26,6 +26,7 @@
 
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="39d8f0d5ee44aae9932923e9fe95b7f2838563af" upstream="master"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="a4efa17a9f6b25d8d9290dfee8275059d40b83df" upstream="master"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="48cc5dd42007d09295677bc8bc0377fe96b5b270" upstream="master"/>
 
   <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="3209ef79fa6d52ad91413a38798bf3b978dd6d18" upstream="mickledore"/>
   <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="fa5c5cf9445b5f0821df97ffd36923b110176938" upstream="mickledore">
@@ -35,6 +36,7 @@
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0b5724266a8e559cac1724350c1ff2f9e6580326" upstream="mickledore"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="2bb4071ad372d4b5a092c872c0d42b261f757681" upstream="mickledore"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="d7db0a3bd1a8639df7570483f003ce00cbe274a2" upstream="mickledore"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="1e0af2f5bb797d7bb639c2ac03c1248cc8d00bc9" upstream="mickledore"/>
   <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/>
   <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="1406d0a85525a71fe5d7892d7f915404290a78ad" upstream="6.5"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="33a45eb06bead2509f1bf5bf46a5bbc85d66583b" upstream="langdale"/>
