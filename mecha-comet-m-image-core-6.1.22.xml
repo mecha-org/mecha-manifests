@@ -26,6 +26,7 @@
 
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="39d8f0d5ee44aae9932923e9fe95b7f2838563af" upstream="master"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="a4efa17a9f6b25d8d9290dfee8275059d40b83df" upstream="master"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="48cc5dd42007d09295677bc8bc0377fe96b5b270" upstream="master"/>
 
   <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="3209ef79fa6d52ad91413a38798bf3b978dd6d18" upstream="mickledore"/>
   <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="fa5c5cf9445b5f0821df97ffd36923b110176938" upstream="mickledore">
