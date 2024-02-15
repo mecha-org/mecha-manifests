@@ -31,7 +31,7 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="48cc5dd42007d09295677bc8bc0377fe96b5b270" upstream="master"/>
  
   <project name="meta-mecha" path="sources/meta-mecha" remote="mecha-org" revision="92f593ae3fed7de856742d5574a535243ff25c48" upstream="mickledore"/>
-  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="a8d5ad660aea465545cfb8bdfb611b1d33ab022b" upstream="mickledore">
+  <project name="meta-mecha-imx" path="sources/meta-mecha-imx" remote="mecha-org" revision="d19157cc476c575bc88e62f8a57b126256ffa6a8" upstream="mickledore">
     <linkfile dest="comet-m-setup-release.sh" src="comet-m-setup-release.sh"/>
   </project>
 
