@@ -13,6 +13,7 @@
   <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
   <remote name="qt"          fetch="https://code.qt.io/yocto"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
+  <remote name="kraj"        fetch="https://github.com/kraj"/>
   <remote name="rust-bin"    fetch="https://github.com/rust-embedded"/>
 
   <project name="poky" path="sources/poky" remote="yocto" revision="ddb298ce894482467d82699d223c5555baad6591" upstream="mickledore"/>
